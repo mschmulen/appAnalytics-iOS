@@ -1,24 +1,46 @@
 appAnalytics-iOS
 ---
 
-Framework for adding analytics to iOS application 
+Framework for self hosted iOS application analytics and simple crash reporting 
 
-Companion server can be found at: [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer)
+Companion server can be found at: [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer) 
 
-`git clone git@github.com:mschmulen/appAnalyticsServer.git`
-
-
-## getting started 
+## Getting started 
 
 1. `git clone git@github.com:mschmulen/appAnalytics-iOS.git`
 1. `cd appAnalytics-iOS`
 1. `open AppAnalytics.xcodeproj/`
+1. run or deploy companion server 
+1. run the sample app
 
-## Sample SwiftUI App
+## Sample SwiftUI App with localhosst server 
 
-Demo and test app for testing swift analytics, configured to use `localhost` make sure and run the Companion server can be found at: [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer)
+Demo and test app for testing swift analytics, configured to use `localhost` make sure and run the Companion server can be found at: 
 
-## Documentation
+1. Start the local companion server:  [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer)
+1. Select the `AnalyticsSwiftUIExample` build target 
+1. Compile and run in the local simuation
+
+
+## Overview
+
+The framework SDK leverages a local CoreData (sqlite) data store to hold analytics allowing for offline caching of events and bursts the analytics events to the server using a TokenBucket to throttle burst size and network consumption.  The basic `AnalyticEvent` `AnalyticEvent.viewDidAppear` or `AnalyticEvent.customEvent` can be used directly or the Application can create custom events by conforming to the `AnalyticEventProtocol` protocol.  Additionally the framework can be configured to also catch, cache and upload `CrashEvents` with stack trace information for crash signals and uncaught swift exceptions.  The framework leverages a local UUID for each crash event to prevent duplicate events from being entered into the Analytics server side data store and also to insure that events are not removed from the local device storage until a server confirmation is recieved by the client.
+
+
+If the host application integrates the appropriate `applicationDidBecomeActive`, `applicationWillResignActive`, etc. The service will automatically report lifecycle events
+
+```
+didFinishLaunchingWithOptions
+applicationDidBecomeActive
+applicationWillResignActive
+applicationDidEnterBackground
+applicationWillEnterForeground
+applicationWillTerminate
+applicationDidReceiveMemoryWarning
+```
+
+
+## Documentation Notes
 
 install jazzy with:
 
@@ -50,22 +72,6 @@ Dispatch an event:
 AnalyticsService.dispatchAnalyticEvent(.viewDidAppear(viewName: "HomeView"))
 ```
 
-## Overview
-
-The framework SDK leverages a local CoreData (sqlite) data store to hold analytics allowing for offline caching of events and bursts the analytics events to the server using a TokenBucket to throttle burst size and network consumption.  The basic `AnalyticEvent` `AnalyticEvent.viewDidAppear` or `AnalyticEvent.customEvent` can be used directly or the Application can create custom events by conforming to the `AnalyticEventProtocol` protocol.  Additionally the framework can be configured to also catch, cache and upload `CrashEvents` with stack trace information for crash signals and uncaught swift exceptions.  The framework leverages a local UUID for each crash event to prevent duplicate events from being entered into the Analytics server side data store and also to insure that events are not removed from the local device storage until a server confirmation is recieved by the client.
-
-
-If the host application integrates the appropriate `applicationDidBecomeActive`, `applicationWillResignActive`, etc. The service will automatically report lifecycle events
-
-```
-didFinishLaunchingWithOptions
-applicationDidBecomeActive
-applicationWillResignActive
-applicationDidEnterBackground
-applicationWillEnterForeground
-applicationWillTerminate
-applicationDidReceiveMemoryWarning
-```
 
 
 ## Note about the TokenBucket

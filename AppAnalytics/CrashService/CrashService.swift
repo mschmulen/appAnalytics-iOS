@@ -76,7 +76,8 @@ extension CrashService {
     public class func forceCrashIndexOutOfRange() {
         let someArray = [1,2,3]
         let value = someArray[5]
-//        let names = ["matt","mark", "jeff"]
+        print( "value \(value)")
+//        let names = ["matt", "mark", "jeff"]
 //        let out = names[33]
     }
     

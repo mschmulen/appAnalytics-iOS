@@ -27,6 +27,8 @@ struct HomeView: View {
             Text("\(appVersion)")
             Text("build env: \(appBuildEnvironment.description)")
             Text("network env: \(appNetworkEnvironment.description)")
+            Text("network scheme: \(appNetworkEnvironment.scheme)")
+            Text("network host: \(appNetworkEnvironment.host)")
         }//end VStack
         .onAppear {
             AnalyticsService.dispatchAnalyticEvent(.viewDidAppear(viewName: "HomeView"))
