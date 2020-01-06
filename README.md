@@ -32,26 +32,13 @@ applicationDidReceiveMemoryWarning
 1. run or deploy companion server 
 1. run the sample app
 
-## Sample SwiftUI App with localhosst server 
+## Sample SwiftUI App with localhost server 
 
 Demo and test app for testing swift analytics, configured to use `localhost` make sure and run the Companion server can be found at: 
 
 1. Start the local companion server:  [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer)
 1. Select the `AnalyticsSwiftUIExample` build target 
 1. Compile and run in the local simuation
-
-
-## Documentation Notes
-
-install jazzy with:
-
-`[sudo] gem install jazzy`
-
-update `docs` with:
-
-`jazzy --min-acl internal --no-hide-documentation-coverage --theme fullwidth --output ./docs --documentation=./*.md`
-
-
 
 ## Usage
 
@@ -99,4 +86,18 @@ TODO
 #### Note about configuration 
 
 TODO
+
+
+
+#### Documentation Notes
+
+install jazzy with:
+
+`[sudo] gem install jazzy`
+
+update `docs` with:
+
+`jazzy --min-acl internal --no-hide-documentation-coverage --theme fullwidth --output ./docs --documentation=./*.md`
+
+
 
