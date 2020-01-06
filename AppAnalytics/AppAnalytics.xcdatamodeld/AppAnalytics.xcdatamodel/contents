@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreDataCrashEvent" representedClassName=".CoreDataCrashEvent" syncable="YES">
+        <attribute name="appUserIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="callStack" optional="YES" attributeType="String"/>
+        <attribute name="crashType" optional="YES" attributeType="String"/>
+        <attribute name="dispatchTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="localCrashUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reason" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoreDataLocalEvent" representedClassName=".CoreDataLocalEvent" syncable="YES">
+        <attribute name="appBuildNumber" optional="YES" attributeType="String"/>
+        <attribute name="appIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="appMetaData" optional="YES" attributeType="String"/>
+        <attribute name="appUserIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="appVersion" optional="YES" attributeType="String"/>
+        <attribute name="dispatchTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="localDeviceEventUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="protectedMetaData" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CoreDataCrashEvent" positionX="162" positionY="234" width="128" height="148"/>
+        <element name="CoreDataLocalEvent" positionX="160" positionY="192" width="128" height="178"/>
+    </elements>
+</model>

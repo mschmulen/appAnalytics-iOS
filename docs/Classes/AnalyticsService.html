@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AnalyticsService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/AnalyticsService" class="dashAnchor"></a>
+
+    <a title="AnalyticsService Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (28% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      AnalyticsService Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AnalyticsService.html">AnalyticsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AnalyticsService/VaporEnvironment.html">– VaporEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CoreDataManager.html">CoreDataManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LocalAppSession.html">LocalAppSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LocalEvent.html">LocalEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TokenBucket.html">TokenBucket</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/VaporNetworkService.html">VaporNetworkService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/AnalyticEventType.html">AnalyticEventType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/AnalyticEventTypeProtocol.html">AnalyticEventTypeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/VaporModel.html">VaporModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AnalyticsConfiguration.html">AnalyticsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AnalyticsConfiguration/Environment.html">– Environment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AppInfoModel.html">AppInfoModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DayMeasurements.html">DayMeasurements</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevEventsView.html">DevEventsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevEventsView_Previews.html">DevEventsView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevLocalEventDetailView.html">DevLocalEventDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevLocalSessionDetailView.html">DevLocalSessionDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevNetworkEventsView.html">DevNetworkEventsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevNetworkEventsView_Previews.html">DevNetworkEventsView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevSessionsView.html">DevSessionsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DevSessionsView_Previews.html">DevSessionsView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GlobalDeviceInfoModel.html">GlobalDeviceInfoModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LocalDeviceInfoModel.html">LocalDeviceInfoModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Location/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAnalyticEventModel.html">VaporAnalyticEventModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAnalyticEventModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAnalyticSessionModel.html">VaporAnalyticSessionModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAnalyticSessionModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAppInfoModel.html">VaporAppInfoModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporAppInfoModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporDeviceModel.html">VaporDeviceModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporDeviceModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporUserModel.html">VaporUserModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VaporUserModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WeatherInfo.html">WeatherInfo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:12AppAnalytics18TemperatureCelsiusa">TemperatureCelsius</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:12AppAnalytics21TemperatureFahrenheita">TemperatureFahrenheit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:12AppAnalytics7VaporIDa">VaporID</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>AnalyticsService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AnalyticsService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Analytics Service</p>
+
+<p>is the entry point for dispatching analytics to the service.  Analytic events are first stored in local storage and then dispatched to the network based on the rate-limiting configuration of the TokenBucket.  Analytics are not removed from the local storage until it recieves a confirmation from the server that the analytics event has been captured.</p>
+<h2 id='notes-on-creating-custom-events' class='heading'>Notes on creating custom events</h2>
+
+<p>TOOD</p>
+<h2 id='notes-on-app-level-event-properties' class='heading'>Notes on app level event properties</h2>
+
+<p>TOOD</p>
+<h2 id='notes-on-tokenbucket-and-event-dispatch-to-the-network' class='heading'>Notes on TokenBucket and event dispatch to the network:</h2>
+
+<p>Analytics Services utilizes a TokenBucket (simple algorithm used for rate-limiting events and shaping network traffic) refer to the ducumentation in <code><a href="../Structs/AnalyticsConfiguration.html">AnalyticsConfiguration</a></code>.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC3cdmAA15CoreDataManagerCvp"></a>
+                    <a name="//apple_ref/swift/Property/cdm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC3cdmAA15CoreDataManagerCvp">cdm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>internal CoreDataManager</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">let</span> <span class="nv">cdm</span><span class="p">:</span> <span class="kt"><a href="../Classes/CoreDataManager.html">CoreDataManager</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC11tokenBucketAA05TokenE0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/tokenBucket" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC11tokenBucketAA05TokenE0Cvp">tokenBucket</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>internal token bucket for throttling</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">let</span> <span class="nv">tokenBucket</span><span class="p">:</span> <span class="kt"><a href="../Classes/TokenBucket.html">TokenBucket</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC11environmentAC16VaporEnvironmentOvp"></a>
+                    <a name="//apple_ref/swift/Property/environment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC11environmentAC16VaporEnvironmentOvp">environment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>internal environment : (local, stage, production)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">let</span> <span class="nv">environment</span><span class="p">:</span> <span class="kt"><a href="../Classes/AnalyticsService/VaporEnvironment.html">VaporEnvironment</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC18currentSessionUUID10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentSessionUUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC18currentSessionUUID10Foundation0F0VSgvp">currentSessionUUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>static internal current session UUID</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">currentSessionUUID</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC15localDeviceInfoAA05LocaleF5ModelVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/localDeviceInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC15localDeviceInfoAA05LocaleF5ModelVSgvp">localDeviceInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>static internal local device information</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">localDeviceInfo</span><span class="p">:</span> <span class="kt"><a href="../Structs/LocalDeviceInfoModel.html">LocalDeviceInfoModel</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/App%20Lifecycle"></a>
+                <a name="//apple_ref/swift/Section/App Lifecycle" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/App%20Lifecycle"></a>
+                  <h3 class="section-name"><p>App Lifecycle</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF"></a>
+                    <a name="//apple_ref/swift/Method/application(_:didFinishLaunchingWithOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF">application(_:didFinishLaunchingWithOptions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>didFinishLaunchingWithOptions must be called after <code>AnalyticsService.configure</code> preferably as the last call in the AppDelegate didFinishLaunchingWithOptions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didFinishLaunchingWithOptions</span> <span class="nv">launchOptions</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIApplication</span><span class="o">.</span><span class="kt">LaunchOptionsKey</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC26applicationDidBecomeActiveyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationDidBecomeActive(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC26applicationDidBecomeActiveyySo13UIApplicationCF">applicationDidBecomeActive(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationDidBecomeActive</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDidBecomeActive</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC27applicationWillResignActiveyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationWillResignActive(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC27applicationWillResignActiveyySo13UIApplicationCF">applicationWillResignActive(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationWillResignActive</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationWillResignActive</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC29applicationDidEnterBackgroundyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationDidEnterBackground(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC29applicationDidEnterBackgroundyySo13UIApplicationCF">applicationDidEnterBackground(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationDidEnterBackground</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDidEnterBackground</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC30applicationWillEnterForegroundyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationWillEnterForeground(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC30applicationWillEnterForegroundyySo13UIApplicationCF">applicationWillEnterForeground(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationWillEnterForeground</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationWillEnterForeground</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC24applicationWillTerminateyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationWillTerminate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC24applicationWillTerminateyySo13UIApplicationCF">applicationWillTerminate(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationWillTerminate</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationWillTerminate</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC34applicationDidReceiveMemoryWarningyySo13UIApplicationCF"></a>
+                    <a name="//apple_ref/swift/Method/applicationDidReceiveMemoryWarning(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC34applicationDidReceiveMemoryWarningyySo13UIApplicationCF">applicationDidReceiveMemoryWarning(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>applicationDidReceiveMemoryWarning</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">applicationDidReceiveMemoryWarning</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UISceneSession%20Lifecycle"></a>
+                <a name="//apple_ref/swift/Section/UISceneSession Lifecycle" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/UISceneSession%20Lifecycle"></a>
+                  <h3 class="section-name"><p>UISceneSession Lifecycle</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC26configurationForConnecting_AD7optionsySo13UIApplicationC_So14UISceneSessionCSo0I17ConnectionOptionsCtFZ"></a>
+                    <a name="//apple_ref/swift/Method/configurationForConnecting(_:configurationForConnecting:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC26configurationForConnecting_AD7optionsySo13UIApplicationC_So14UISceneSessionCSo0I17ConnectionOptionsCtFZ">configurationForConnecting(_:configurationForConnecting:options:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">configurationForConnecting</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">configurationForConnecting</span> <span class="nv">connectingSceneSession</span><span class="p">:</span> <span class="kt">UISceneSession</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kt">UIScene</span><span class="o">.</span><span class="kt">ConnectionOptions</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC23didDiscardSceneSessions_ADySo13UIApplicationC_ShySo14UISceneSessionCGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/didDiscardSceneSessions(_:didDiscardSceneSessions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC23didDiscardSceneSessions_ADySo13UIApplicationC_ShySo14UISceneSessionCGtFZ">didDiscardSceneSessions(_:didDiscardSceneSessions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">didDiscardSceneSessions</span><span class="p">(</span><span class="n">_</span> <span class="nv">application</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="n">didDiscardSceneSessions</span> <span class="nv">sceneSessions</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UISceneSession</span><span class="o">&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC21dispatchAnalyticEvent_11appMetaDatayAA0eF4TypeO_SDyS2SGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dispatchAnalyticEvent(_:appMetaData:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC21dispatchAnalyticEvent_11appMetaDatayAA0eF4TypeO_SDyS2SGtFZ">dispatchAnalyticEvent(_:appMetaData:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the single public entry point to dispatch an analytic event.</p>
+
+<p>It will store the data in local storage first and then call an attemptToFlushLocalData which is rate limited by the TokenBucket. The TokenBucket allows rate limiting of dispatched events in a deterministic way without relying on timers.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">dispatchAnalyticEvent</span><span class="p">(</span><span class="n">_</span> <span class="nv">event</span><span class="p">:</span> <span class="kt"><a href="../Enums/AnalyticEventType.html">AnalyticEventType</a></span><span class="p">,</span> <span class="nv">appMetaData</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC22sendDeviceInfoToServeryyF"></a>
+                    <a name="//apple_ref/swift/Method/sendDeviceInfoToServer()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC22sendDeviceInfoToServeryyF">sendDeviceInfoToServer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">sendDeviceInfoToServer</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC04sendA12InfoToServeryyF"></a>
+                    <a name="//apple_ref/swift/Method/sendAppInfoToServer()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC04sendA12InfoToServeryyF">sendAppInfoToServer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">sendAppInfoToServer</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC24flushLocalEventsToServeryyF"></a>
+                    <a name="//apple_ref/swift/Method/flushLocalEventsToServer()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC24flushLocalEventsToServeryyF">flushLocalEventsToServer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">flushLocalEventsToServer</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC38sendEventToServerAndDeleteFromCoreDatayyAA05LocalE0CFZ"></a>
+                    <a name="//apple_ref/swift/Method/sendEventToServerAndDeleteFromCoreData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC38sendEventToServerAndDeleteFromCoreDatayyAA05LocalE0CFZ">sendEventToServerAndDeleteFromCoreData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendEventToServerAndDeleteFromCoreData</span><span class="p">(</span><span class="n">_</span> <span class="nv">localEvent</span><span class="p">:</span> <span class="kt"><a href="../Classes/LocalEvent.html">LocalEvent</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC26flushLocalSessionsToServeryyF"></a>
+                    <a name="//apple_ref/swift/Method/flushLocalSessionsToServer()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC26flushLocalSessionsToServeryyF">flushLocalSessionsToServer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">flushLocalSessionsToServer</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC40sendSessionToServerAndDeleteFromCoreDatayyAA05LocalaE0CFZ"></a>
+                    <a name="//apple_ref/swift/Method/sendSessionToServerAndDeleteFromCoreData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC40sendSessionToServerAndDeleteFromCoreDatayyAA05LocalaE0CFZ">sendSessionToServerAndDeleteFromCoreData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendSessionToServerAndDeleteFromCoreData</span><span class="p">(</span><span class="n">_</span> <span class="nv">localSession</span><span class="p">:</span> <span class="kt"><a href="../Classes/LocalAppSession.html">LocalAppSession</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC12sessionStart10Foundation4UUIDVSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/sessionStart()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC12sessionStart10Foundation4UUIDVSgyFZ">sessionStart()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">sessionStart</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UUID</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC10sessionEnd0D4UUIDy10Foundation0F0V_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/sessionEnd(sessionUUID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC10sessionEnd0D4UUIDy10Foundation0F0V_tFZ">sessionEnd(sessionUUID:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">sessionEnd</span><span class="p">(</span><span class="nv">sessionUUID</span><span class="p">:</span> <span class="kt">UUID</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/public%20accessors"></a>
+                <a name="//apple_ref/swift/Section/public accessors" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/public%20accessors"></a>
+                  <h3 class="section-name"><p>public accessors</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC5start6configyAA0B13ConfigurationV_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/start(config:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC5start6configyAA0B13ConfigurationV_tFZ">start(config:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>public configuration of the AnalyticsService library must be called first</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="nv">config</span><span class="p">:</span> <span class="kt"><a href="../Structs/AnalyticsConfiguration.html">AnalyticsConfiguration</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">defaultLocalConfiguration</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC6sharedACyFZ"></a>
+                    <a name="//apple_ref/swift/Method/shared()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC6sharedACyFZ">shared()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>public shared instance accessor</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">shared</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AnalyticsService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC16VaporEnvironmentO"></a>
+                    <a name="//apple_ref/swift/Enum/VaporEnvironment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC16VaporEnvironmentO">VaporEnvironment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Classes/AnalyticsService/VaporEnvironment.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">enum</span> <span class="kt">VaporEnvironment</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC21triggerLocalDataFlush7secondsySd_tF"></a>
+                    <a name="//apple_ref/swift/Method/triggerLocalDataFlush(seconds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC21triggerLocalDataFlush7secondsySd_tF">triggerLocalDataFlush(seconds:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>start the flush service, default wait is 2.8 seconds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">triggerLocalDataFlush</span><span class="p">(</span><span class="nv">seconds</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">2.8</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12AppAnalytics0B7ServiceC23attemptToFlushLocalDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/attemptToFlushLocalData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12AppAnalytics0B7ServiceC23attemptToFlushLocalDatayyF">attemptToFlushLocalData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attempt to flush the local data by sending it to the server. This method is rate limited by the tokenBucket and will early out if there are 0 tokens in the bit bucket</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">func</span> <span class="nf">attemptToFlushLocalData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-12-12)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

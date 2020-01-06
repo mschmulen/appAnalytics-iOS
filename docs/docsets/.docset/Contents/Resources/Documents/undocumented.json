@@ -1,0 +1,1454 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 11,
+      "symbol": "AnalyticEventTypeProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 12,
+      "symbol": "AnalyticEventTypeProtocol.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 15,
+      "symbol": "AnalyticEventType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 18,
+      "symbol": "AnalyticEventType.testEventA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 19,
+      "symbol": "AnalyticEventType.testEventB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 20,
+      "symbol": "AnalyticEventType.testEventC",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 23,
+      "symbol": "AnalyticEventType.didFinishLaunchingWithOptions",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 24,
+      "symbol": "AnalyticEventType.applicationDidBecomeActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 25,
+      "symbol": "AnalyticEventType.applicationWillResignActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 26,
+      "symbol": "AnalyticEventType.applicationDidEnterBackground",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 27,
+      "symbol": "AnalyticEventType.applicationWillEnterForeground",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 28,
+      "symbol": "AnalyticEventType.applicationWillTerminate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 29,
+      "symbol": "AnalyticEventType.applicationDidReceiveMemoryWarning",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 32,
+      "symbol": "AnalyticEventType.viewDidAppear(viewName:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 35,
+      "symbol": "AnalyticEventType.customEvent(eventName:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticEventType.swift",
+      "line": 37,
+      "symbol": "AnalyticEventType.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+AppLifeCycle.swift",
+      "line": 73,
+      "symbol": "AnalyticsService.configurationForConnecting(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+AppLifeCycle.swift",
+      "line": 78,
+      "symbol": "AnalyticsService.didDiscardSceneSessions(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 11,
+      "symbol": "AnalyticsService.sendDeviceInfoToServer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 29,
+      "symbol": "AnalyticsService.sendAppInfoToServer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 45,
+      "symbol": "AnalyticsService.flushLocalEventsToServer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 59,
+      "symbol": "AnalyticsService.sendEventToServerAndDeleteFromCoreData(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 103,
+      "symbol": "AnalyticsService.flushLocalSessionsToServer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Server.swift",
+      "line": 110,
+      "symbol": "AnalyticsService.sendSessionToServerAndDeleteFromCoreData(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Session.swift",
+      "line": 13,
+      "symbol": "AnalyticsService.sessionStart()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService+Session.swift",
+      "line": 19,
+      "symbol": "AnalyticsService.sessionEnd(sessionUUID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 39,
+      "symbol": "AnalyticsConfiguration.Environment",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 40,
+      "symbol": "AnalyticsConfiguration.Environment.local",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 41,
+      "symbol": "AnalyticsConfiguration.Environment.stage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 42,
+      "symbol": "AnalyticsConfiguration.Environment.production",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 45,
+      "symbol": "AnalyticsConfiguration.environment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 47,
+      "symbol": "AnalyticsConfiguration.tokeBucketRefreshIntervalInSeconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 48,
+      "symbol": "AnalyticsConfiguration.tokenBucketTokensPerInterval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 49,
+      "symbol": "AnalyticsConfiguration.tokenBucketCapacity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 50,
+      "symbol": "AnalyticsConfiguration.tokenBucketInitialTokenCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 52,
+      "symbol": "AnalyticsConfiguration.defaultLocalConfiguration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 142,
+      "symbol": "AnalyticsService.VaporEnvironment",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 143,
+      "symbol": "AnalyticsService.VaporEnvironment.local",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 144,
+      "symbol": "AnalyticsService.VaporEnvironment.stage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 145,
+      "symbol": "AnalyticsService.VaporEnvironment.production",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 147,
+      "symbol": "AnalyticsService.VaporEnvironment.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
+      "line": 155,
+      "symbol": "AnalyticsService.VaporEnvironment.getRootURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 21,
+      "symbol": "CoreDataManager.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 23,
+      "symbol": "CoreDataManager.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 24,
+      "symbol": "CoreDataManager.modelName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 27,
+      "symbol": "CoreDataManager.persistentContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 53,
+      "symbol": "CoreDataManager.createSession()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 94,
+      "symbol": "CoreDataManager.fetchLocalSessions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 106,
+      "symbol": "CoreDataManager.deleteSession(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 169,
+      "symbol": "CoreDataManager.fetchLocalEventsOldestFirst()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 184,
+      "symbol": "CoreDataManager.fetchLocalEvents()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/CoreDataManager.swift",
+      "line": 196,
+      "symbol": "CoreDataManager.deleteEvent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 13,
+      "symbol": "LocalAppSession",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 15,
+      "symbol": "LocalAppSession.localUUID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 17,
+      "symbol": "LocalAppSession.startTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 19,
+      "symbol": "LocalAppSession.endTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 23,
+      "symbol": "LocalAppSession",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalAppSession.swift",
+      "line": 26,
+      "symbol": "LocalAppSession.allSessionsFetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 13,
+      "symbol": "LocalEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 15,
+      "symbol": "LocalEvent.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 17,
+      "symbol": "LocalEvent.dispatchTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 19,
+      "symbol": "LocalEvent.localSessionUUID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 21,
+      "symbol": "LocalEvent.localDeviceEventUUID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 23,
+      "symbol": "LocalEvent.protectedMetaData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 25,
+      "symbol": "LocalEvent.appMetaData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 30,
+      "symbol": "LocalEvent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/CoreData/LocalEvent.swift",
+      "line": 33,
+      "symbol": "LocalEvent.allEventsFetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventDetailView.swift",
+      "line": 13,
+      "symbol": "DevLocalEventDetailView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventDetailView.swift",
+      "line": 15,
+      "symbol": "DevLocalEventDetailView.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventDetailView.swift",
+      "line": 17,
+      "symbol": "DevLocalEventDetailView.header",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventDetailView.swift",
+      "line": 23,
+      "symbol": "DevLocalEventDetailView.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventDetailView.swift",
+      "line": 36,
+      "symbol": "DevLocalEventDetailView.operations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventsView.swift",
+      "line": 11,
+      "symbol": "DevEventsView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventsView.swift",
+      "line": 13,
+      "symbol": "DevEventsView.managedObjectContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventsView.swift",
+      "line": 15,
+      "symbol": "DevEventsView.events",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventsView.swift",
+      "line": 24,
+      "symbol": "DevEventsView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevEventsView.swift",
+      "line": 93,
+      "symbol": "DevEventsView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevNetworkEventsView.swift",
+      "line": 11,
+      "symbol": "DevNetworkEventsView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevNetworkEventsView.swift",
+      "line": 13,
+      "symbol": "DevNetworkEventsView.managedObjectContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevNetworkEventsView.swift",
+      "line": 15,
+      "symbol": "DevNetworkEventsView.events",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevNetworkEventsView.swift",
+      "line": 17,
+      "symbol": "DevNetworkEventsView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevNetworkEventsView.swift",
+      "line": 85,
+      "symbol": "DevNetworkEventsView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 13,
+      "symbol": "DevLocalSessionDetailView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 15,
+      "symbol": "DevLocalSessionDetailView.managedObjectContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 17,
+      "symbol": "DevLocalSessionDetailView.events",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 19,
+      "symbol": "DevLocalSessionDetailView.modelAppSession",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 24,
+      "symbol": "DevLocalSessionDetailView.init(modelSession:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 36,
+      "symbol": "DevLocalSessionDetailView.header",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionDetailView.swift",
+      "line": 43,
+      "symbol": "DevLocalSessionDetailView.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionsView.swift",
+      "line": 12,
+      "symbol": "DevSessionsView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionsView.swift",
+      "line": 14,
+      "symbol": "DevSessionsView.managedObjectContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionsView.swift",
+      "line": 16,
+      "symbol": "DevSessionsView.sessions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionsView.swift",
+      "line": 25,
+      "symbol": "DevSessionsView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/DevViews/DevSessionsView.swift",
+      "line": 67,
+      "symbol": "DevSessionsView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/AppInfoModel.swift",
+      "line": 16,
+      "symbol": "AppInfoModel.bundleName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/AppInfoModel.swift",
+      "line": 17,
+      "symbol": "AppInfoModel.bundleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/AppInfoModel.swift",
+      "line": 18,
+      "symbol": "AppInfoModel.bundleVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/AppInfoModel.swift",
+      "line": 19,
+      "symbol": "AppInfoModel.bundleShortVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/AppInfoModel.swift",
+      "line": 21,
+      "symbol": "AppInfoModel.make()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 15,
+      "symbol": "GlobalDeviceInfoModel.deviceSystemVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 16,
+      "symbol": "GlobalDeviceInfoModel.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 17,
+      "symbol": "GlobalDeviceInfoModel.deviceLocalizedModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 18,
+      "symbol": "GlobalDeviceInfoModel.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 19,
+      "symbol": "GlobalDeviceInfoModel.deviceSystemName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 20,
+      "symbol": "GlobalDeviceInfoModel.deviceUserInterfaceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 21,
+      "symbol": "GlobalDeviceInfoModel.identifierForVendor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/GlobalDeviceInfoModel.swift",
+      "line": 25,
+      "symbol": "GlobalDeviceInfoModel.memoryCache()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/LocalModels/LocalDeviceInfoModel.swift",
+      "line": 36,
+      "symbol": "LocalDeviceInfoModel.make()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/Service+Alias.swift",
+      "line": 7,
+      "symbol": "TemperatureCelsius",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/Service+Alias.swift",
+      "line": 8,
+      "symbol": "TemperatureFahrenheit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 7,
+      "symbol": "Location",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 9,
+      "symbol": "Location.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 11,
+      "symbol": "Location.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 12,
+      "symbol": "Location.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 14,
+      "symbol": "Location.init(name:id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 19,
+      "symbol": "Location.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 20,
+      "symbol": "Location.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/LocationModel.swift",
+      "line": 21,
+      "symbol": "Location.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 10,
+      "symbol": "VaporAnalyticEventModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 12,
+      "symbol": "VaporAnalyticEventModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 30,
+      "symbol": "VaporAnalyticEventModel.appMetaData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 59,
+      "symbol": "VaporAnalyticEventModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 60,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 61,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 62,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.creationTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 63,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.localDeviceEventUUID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 64,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.deviceIDFV",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 65,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.protectedMetaData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticEventModel.swift",
+      "line": 66,
+      "symbol": "VaporAnalyticEventModel.CodingKeys.appMetaData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 11,
+      "symbol": "VaporAnalyticSessionModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 13,
+      "symbol": "VaporAnalyticSessionModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 15,
+      "symbol": "VaporAnalyticSessionModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 17,
+      "symbol": "VaporAnalyticSessionModel.deviceIDFV",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 19,
+      "symbol": "VaporAnalyticSessionModel.localDeviceSessionUUID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 21,
+      "symbol": "VaporAnalyticSessionModel.startTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 23,
+      "symbol": "VaporAnalyticSessionModel.endTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 25,
+      "symbol": "VaporAnalyticSessionModel.init(id:deviceIDFV:localDeviceSessionUUID:startTime:endTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 40,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 41,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 42,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys.deviceIDFV",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 43,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys.localDeviceSessionUUID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 44,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys.startTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAnalyticSessionModel.swift",
+      "line": 45,
+      "symbol": "VaporAnalyticSessionModel.CodingKeys.endTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 7,
+      "symbol": "VaporAppInfoModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 9,
+      "symbol": "VaporAppInfoModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 27,
+      "symbol": "VaporAppInfoModel.appHash",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 29,
+      "symbol": "VaporAppInfoModel.lastUpdateTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 31,
+      "symbol": "VaporAppInfoModel.init(appInfo:id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 43,
+      "symbol": "VaporAppInfoModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 44,
+      "symbol": "VaporAppInfoModel.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 45,
+      "symbol": "VaporAppInfoModel.CodingKeys.appIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 46,
+      "symbol": "VaporAppInfoModel.CodingKeys.appVersion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 47,
+      "symbol": "VaporAppInfoModel.CodingKeys.appBuild",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 48,
+      "symbol": "VaporAppInfoModel.CodingKeys.deviceSystemName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 49,
+      "symbol": "VaporAppInfoModel.CodingKeys.appHash",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporAppInfoModel.swift",
+      "line": 50,
+      "symbol": "VaporAppInfoModel.CodingKeys.lastUpdateTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 7,
+      "symbol": "VaporDeviceModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 9,
+      "symbol": "VaporDeviceModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 11,
+      "symbol": "VaporDeviceModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 13,
+      "symbol": "VaporDeviceModel.identifierForVendor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 15,
+      "symbol": "VaporDeviceModel.deviceSystemVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 17,
+      "symbol": "VaporDeviceModel.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 19,
+      "symbol": "VaporDeviceModel.deviceLocalizedModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 21,
+      "symbol": "VaporDeviceModel.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 23,
+      "symbol": "VaporDeviceModel.deviceSystemName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 25,
+      "symbol": "VaporDeviceModel.deviceUserInterfaceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 27,
+      "symbol": "VaporDeviceModel.lastUpdateTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 29,
+      "symbol": "VaporDeviceModel.init(id:deviceInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 42,
+      "symbol": "VaporDeviceModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 43,
+      "symbol": "VaporDeviceModel.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 44,
+      "symbol": "VaporDeviceModel.CodingKeys.identifierForVendor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 45,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceSystemVersion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 46,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 47,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceLocalizedModel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 48,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 49,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceSystemName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 50,
+      "symbol": "VaporDeviceModel.CodingKeys.deviceUserInterfaceIdiom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporDeviceModel.swift",
+      "line": 51,
+      "symbol": "VaporDeviceModel.CodingKeys.lastUpdateTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporModel.swift",
+      "line": 7,
+      "symbol": "VaporID",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporModel.swift",
+      "line": 9,
+      "symbol": "VaporModel",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporModel.swift",
+      "line": 11,
+      "symbol": "VaporModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporModel.swift",
+      "line": 13,
+      "symbol": "VaporModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 7,
+      "symbol": "VaporUserModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 9,
+      "symbol": "VaporUserModel.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 11,
+      "symbol": "VaporUserModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 12,
+      "symbol": "VaporUserModel.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 14,
+      "symbol": "VaporUserModel.init(email:id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 19,
+      "symbol": "VaporUserModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 20,
+      "symbol": "VaporUserModel.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/VaporUserModel.swift",
+      "line": 21,
+      "symbol": "VaporUserModel.CodingKeys.email",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 7,
+      "symbol": "DayMeasurements",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 8,
+      "symbol": "DayMeasurements.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 9,
+      "symbol": "DayMeasurements.cloudCover",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 10,
+      "symbol": "DayMeasurements.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 13,
+      "symbol": "WeatherInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 15,
+      "symbol": "WeatherInfo.endpointRouteURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 17,
+      "symbol": "WeatherInfo.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 19,
+      "symbol": "WeatherInfo.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 21,
+      "symbol": "WeatherInfo.dayMeasurements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporModels/WeatherInfoModel.swift",
+      "line": 23,
+      "symbol": "WeatherInfo.init(location:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 10,
+      "symbol": "VaporNetworkService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 12,
+      "symbol": "VaporNetworkService.loadGeneric(withCompletion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 30,
+      "symbol": "VaporNetworkService.createGeneric(model:withCompletion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 138,
+      "symbol": "VaporNetworkService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 145,
+      "symbol": "VaporNetworkService.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 147,
+      "symbol": "VaporNetworkService.fetch()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/VaporNetworkService.swift",
+      "line": 157,
+      "symbol": "VaporNetworkService.loadWeatherInfo(withCompletion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS"
+}
