@@ -184,112 +184,112 @@
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "AnalyticsConfiguration.Environment",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "AnalyticsConfiguration.Environment.local",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 41,
+      "line": 45,
       "symbol": "AnalyticsConfiguration.Environment.stage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 42,
+      "line": 46,
       "symbol": "AnalyticsConfiguration.Environment.production",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 45,
+      "line": 49,
       "symbol": "AnalyticsConfiguration.environment",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 47,
+      "line": 51,
       "symbol": "AnalyticsConfiguration.tokeBucketRefreshIntervalInSeconds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 48,
+      "line": 52,
       "symbol": "AnalyticsConfiguration.tokenBucketTokensPerInterval",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 49,
+      "line": 53,
       "symbol": "AnalyticsConfiguration.tokenBucketCapacity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 50,
+      "line": 54,
       "symbol": "AnalyticsConfiguration.tokenBucketInitialTokenCount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 52,
+      "line": 56,
       "symbol": "AnalyticsConfiguration.defaultLocalConfiguration",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 142,
+      "line": 146,
       "symbol": "AnalyticsService.VaporEnvironment",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 143,
+      "line": 147,
       "symbol": "AnalyticsService.VaporEnvironment.local",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 144,
+      "line": 148,
       "symbol": "AnalyticsService.VaporEnvironment.stage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 145,
+      "line": 149,
       "symbol": "AnalyticsService.VaporEnvironment.production",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 147,
+      "line": 151,
       "symbol": "AnalyticsService.VaporEnvironment.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/schmulen/trees/github/jumptack/appAnalytics-iOS/AppAnalytics/AnalyticsService.swift",
-      "line": 155,
+      "line": 159,
       "symbol": "AnalyticsService.VaporEnvironment.getRootURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
