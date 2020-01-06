@@ -1,6 +1,8 @@
 appAnalytics-iOS
 ---
 
+*Currently a WIP* not ready for consumption
+
 Framework for self hosted iOS application analytics and simple crash reporting 
 
 Companion server can be found at: [https://github.com/mschmulen/appAnalyticsServer](https://github.com/mschmulen/appAnalyticsServer) 
