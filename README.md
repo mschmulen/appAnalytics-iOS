@@ -91,6 +91,12 @@ TODO
 
 
 
+#### TODO integrate app metrics from metricKit
+
+- Date cap on analytics, delete metrics older than 1 week from the local device so the device memory does not fill up.
+
+- metricKit https://developer.apple.com/documentation/metrickit
+
 #### Documentation Notes
 
 install jazzy with:

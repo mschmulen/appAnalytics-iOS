@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import StoreKit
+import MetricKit
 
 // MARK: App Lifecycle
 extension AnalyticsService {
@@ -42,6 +43,10 @@ extension AnalyticsService {
                 print( "SKAdNetwork is not available on this target")
             }
         }
+        
+        // enable MetricKit
+        // MXMetricManager.shared.add(self)
+        
         return true
     }
     
@@ -73,6 +78,21 @@ extension AnalyticsService {
     /// applicationDidReceiveMemoryWarning
     public func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
         AnalyticsService.dispatchAnalyticEvent(.applicationDidReceiveMemoryWarning)
+    }
+    
+}
+
+
+// MARK: MXMetricManagerSubscriber
+extension AnalyticsService {
+    
+    /**
+     didReceiveMetrics
+     Note: this is only called on device ( not in Sim )
+     */
+    public func didReceiveMetrics(_ payloads: [MXMetricPayload]) {
+        print( "AnalyticsService.didReceiveMetrics \( payloads)" )
+        MetricKitModel.processPayloads( payloads )
     }
     
 }

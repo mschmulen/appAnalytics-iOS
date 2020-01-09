@@ -9,6 +9,7 @@
 import UIKit
 import AppAnalytics
 import CoreData
+import MetricKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -55,6 +56,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AnalyticsService.start(config: analyticsServiceConfiguration)
         
         _ = AnalyticsService.shared().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        // enable MetricKit
+        MXMetricManager.shared.add(self)
         
         return true
     }
@@ -177,5 +181,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
 //    }
     
+}
+
+// MARK: MXMetricManagerSubscriber
+extension AppDelegate: MXMetricManagerSubscriber {
+    
+    public func didReceive(_ payloads: [MXMetricPayload]) {
+        print( "MXMetricManagerSubscriber:didReceive \(payloads)")
+        AnalyticsService.shared().didReceiveMetrics( payloads )
+    }
 }
 

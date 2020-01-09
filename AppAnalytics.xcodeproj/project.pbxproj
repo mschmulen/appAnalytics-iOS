@@ -17,6 +17,7 @@
 		7600D62423A7FE8E001E5455 /* LocalDeviceCrashEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D62323A7FE8E001E5455 /* LocalDeviceCrashEventDetailView.swift */; };
 		7600D62623A82179001E5455 /* ServerAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D62523A82179001E5455 /* ServerAppsView.swift */; };
 		7600D62823A82656001E5455 /* CrashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D62723A82656001E5455 /* CrashModel.swift */; };
+		7605DFC523C7720C00A5A629 /* MetricKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605DFC423C7720C00A5A629 /* MetricKitModel.swift */; };
 		763B422623AADCAC00077C5E /* VaporNetworkService+Filterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B422523AADCAB00077C5E /* VaporNetworkService+Filterable.swift */; };
 		763B423723ABAD9500077C5E /* AnalyticsService+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B423623ABAD9500077C5E /* AnalyticsService+Internal.swift */; };
 		763B423923ABE1C700077C5E /* DeviceDetailServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B423823ABE1C700077C5E /* DeviceDetailServerData.swift */; };
@@ -157,6 +158,7 @@
 		7600D62323A7FE8E001E5455 /* LocalDeviceCrashEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDeviceCrashEventDetailView.swift; sourceTree = "<group>"; };
 		7600D62523A82179001E5455 /* ServerAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAppsView.swift; sourceTree = "<group>"; };
 		7600D62723A82656001E5455 /* CrashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashModel.swift; sourceTree = "<group>"; };
+		7605DFC423C7720C00A5A629 /* MetricKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricKitModel.swift; sourceTree = "<group>"; };
 		763B422523AADCAB00077C5E /* VaporNetworkService+Filterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VaporNetworkService+Filterable.swift"; sourceTree = "<group>"; };
 		763B423623ABAD9500077C5E /* AnalyticsService+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsService+Internal.swift"; sourceTree = "<group>"; };
 		763B423823ABE1C700077C5E /* DeviceDetailServerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailServerData.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				7691302C23737D8A003EAF0C /* AppInfoModel.swift */,
 				7600D60A23A304BF001E5455 /* AnalyticEvent.swift */,
 				76D45DC1237321400029BF09 /* LocalDeviceInfoModel.swift */,
+				7605DFC423C7720C00A5A629 /* MetricKitModel.swift */,
 			);
 			path = LocalModels;
 			sourceTree = "<group>";
@@ -833,6 +836,7 @@
 				763B422623AADCAC00077C5E /* VaporNetworkService+Filterable.swift in Sources */,
 				7600D62823A82656001E5455 /* CrashModel.swift in Sources */,
 				76F9FB7F235A5C9C008F4640 /* ServerDispatchServices.swift in Sources */,
+				7605DFC523C7720C00A5A629 /* MetricKitModel.swift in Sources */,
 				76F9FB79235A4F55008F4640 /* CoreDataLocalEvent.swift in Sources */,
 				76F9F943235A3051008F4640 /* VaporAppInfoModel.swift in Sources */,
 				76A1145023AA87710055E660 /* AppServerData.swift in Sources */,
