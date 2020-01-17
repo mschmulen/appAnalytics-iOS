@@ -29,7 +29,7 @@ public struct MetricKitModel {
         
         for payload in payloads {
             
-            print( "payload \(payload)")
+            print( "payload: \(payload)")
             
 //            let url = URL(string: "https://example.com/collectMetrics")!
 //
