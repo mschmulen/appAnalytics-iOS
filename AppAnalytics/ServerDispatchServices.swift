@@ -148,29 +148,4 @@ extension ServerDispatchServices {
             }
         }
     }
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
-// Mark: User Services
-//extension AnalyticsService {
-//
-//    public class func sendUserToServer(_ deviceGUID:String) {
-//        print( "sendDeviceToServer deviceGUID = \(deviceGUID)")
-//
-//        let dispatchEvent = VaporDeviceModel(deviceGUID: deviceGUID, id: nil)
-//        let uuidResult = AnalyticsService.dispatchToNetwork(dispatchEvent )
-//        print( "uuidResult \(String(describing: uuidResult))")
-//    }
-//
-//}

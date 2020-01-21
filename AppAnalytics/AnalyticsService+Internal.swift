@@ -99,6 +99,10 @@ extension AnalyticsService {
             AnalyticsService.shared().flushLocalEventsToServer()
         } else {
             //print( "skip the flush we dont have enough tokens")
+            
+            // Lets use this oppertunity to clean up old events
+            // MAS TODO: deleteLocalEventsOlderThan9Days This needs to be verified
+            // AnalyticsService.shared().deleteLocalEventsOlderThan9Days()
         }
     }
 }
@@ -137,74 +141,7 @@ extension AnalyticsService {
 }
 
 
-import CoreData
 
-extension AnalyticsService {
-    
-    internal func flushLocalEventsToServerBackground() {
-        
-        DispatchQueue.global(qos: .userInitiated).async {
-            
-            // Thread.printCurrent("flushLocalEventsToServerBackground")
-            
-            // background request
-            let context = CoreDataManager.shared.backgroundContext
-            let fetchRequest = NSFetchRequest<CoreDataLocalEvent>(entityName: "CoreDataLocalEvent")
-            let sort = NSSortDescriptor(key: "dispatchTime", ascending: true)
-            fetchRequest.sortDescriptors = [sort]
-            
-            let localEvents:[CoreDataLocalEvent]
-            do{
-                let models = try context.fetch(fetchRequest)
-                localEvents = models
-            }catch let fetchErr {
-                print("❌ Failed to fetch Person:",fetchErr)
-                localEvents = []
-            }
-            
-            print( "localEvents \(localEvents.count)")
-            
-            for (_,event) in localEvents.enumerated() {
-                
-                print( "event \(event.name ?? "~")")
-//                // print( "tokenBucket.tokenCount: \(tokenBucket.tokenCount)")
-//                if self.tokenBucket.tokenCount > 0 {
-//                    // MAS TODO this needs to be spun out in an asyc thread
-//                    //tokenBucket.consume(1)
-//                    if (self.tokenBucket.tryConsumeBlocking(1, until: Date().addingTimeInterval(0.1))) {
-//                        // print( "sending event \(event.name ?? "~")")
-//                        ServerDispatchServices.sendEventToServerAndDeleteFromCoreData(event)
-//                    }
-//                } else {
-//                    //print( "tokenBucket is empty, must try again later")
-//                }
-            }
-            
-            
-            
-//          for address in [PhotoURLString.overlyAttachedGirlfriend,
-//                          PhotoURLString.successKid,
-//                          PhotoURLString.lotsOfFaces] {
-//            let url = URL(string: address)
-//
-//            downloadGroup.enter()
-//            let photo = DownloadPhoto(url: url!) { _, error in
-//              if error != nil {
-//                storedError = error
-//              }
-//              downloadGroup.leave()
-//            }
-//            PhotoManager.shared.addPhoto(photo)
-//          }
-//          downloadGroup.wait()
-
-//          DispatchQueue.main.async {
-//            completion?(storedError)
-//          }
-        }
-    }
-    
-}
 
 //struct AccessToken {
 //    let count:Int

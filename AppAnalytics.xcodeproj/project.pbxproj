@@ -22,6 +22,7 @@
 		763B423723ABAD9500077C5E /* AnalyticsService+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B423623ABAD9500077C5E /* AnalyticsService+Internal.swift */; };
 		763B423923ABE1C700077C5E /* DeviceDetailServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B423823ABE1C700077C5E /* DeviceDetailServerData.swift */; };
 		763B423B23ABEAF200077C5E /* AppDetailServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B423A23ABEAF200077C5E /* AppDetailServerData.swift */; };
+		7646F80323D727A600623B3E /* AnalyticsService+Internal+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646F80223D727A600623B3E /* AnalyticsService+Internal+CoreData.swift */; };
 		7691302D23737D8A003EAF0C /* AppInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7691302C23737D8A003EAF0C /* AppInfoModel.swift */; };
 		76A1142723A912E10055E660 /* ServerAppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1142623A912E10055E660 /* ServerAppDetailView.swift */; };
 		76A1142923A912EC0055E660 /* ServerDeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1142823A912EC0055E660 /* ServerDeviceDetailView.swift */; };
@@ -163,6 +164,7 @@
 		763B423623ABAD9500077C5E /* AnalyticsService+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsService+Internal.swift"; sourceTree = "<group>"; };
 		763B423823ABE1C700077C5E /* DeviceDetailServerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailServerData.swift; sourceTree = "<group>"; };
 		763B423A23ABEAF200077C5E /* AppDetailServerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailServerData.swift; sourceTree = "<group>"; };
+		7646F80223D727A600623B3E /* AnalyticsService+Internal+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsService+Internal+CoreData.swift"; sourceTree = "<group>"; };
 		7675CE8423C3B0A0006FC638 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7691302C23737D8A003EAF0C /* AppInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoModel.swift; sourceTree = "<group>"; };
 		76A1142623A912E10055E660 /* ServerAppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAppDetailView.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 				76F9F93B235A3051008F4640 /* AnalyticsService+Event.swift */,
 				76FA3D7923A1650F000EEE5C /* AnalyticsService+AppLifeCycle.swift */,
 				763B423623ABAD9500077C5E /* AnalyticsService+Internal.swift */,
+				7646F80223D727A600623B3E /* AnalyticsService+Internal+CoreData.swift */,
 				76F9FB7E235A5C9C008F4640 /* ServerDispatchServices.swift */,
 				76F9F6C6235A2DFE008F4640 /* AppAnalytics.h */,
 				76F9F6C7235A2DFE008F4640 /* Info.plist */,
@@ -839,6 +842,7 @@
 				7605DFC523C7720C00A5A629 /* MetricKitModel.swift in Sources */,
 				76F9FB79235A4F55008F4640 /* CoreDataLocalEvent.swift in Sources */,
 				76F9F943235A3051008F4640 /* VaporAppInfoModel.swift in Sources */,
+				7646F80323D727A600623B3E /* AnalyticsService+Internal+CoreData.swift in Sources */,
 				76A1145023AA87710055E660 /* AppServerData.swift in Sources */,
 				7600D61823A7E5AC001E5455 /* CrashService.swift in Sources */,
 				7600D62223A7FB24001E5455 /* LocalDeviceCrashsView.swift in Sources */,
