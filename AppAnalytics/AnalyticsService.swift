@@ -34,6 +34,10 @@ public class AnalyticsService {
     
     public let enableAppleSKAdNetwork:Bool
     
+    /// for deletion of really old events
+    public let enableDeletionOfOldEvents:Bool
+    public let numberOfDaysBeforeQualifyingAsOldEvent:Int // -9 = 9 daysAgo
+    
     /// internal local device information
     public internal(set) var localDeviceInfo:LocalDeviceInfoModel
 
@@ -88,9 +92,14 @@ public class AnalyticsService {
         
         enableCrashReporting = config.enableCrashReporting
         enableAppleSKAdNetwork = config.enableAppleSKAdNetwork
+        
+        // for deletion of really old events
+        enableDeletionOfOldEvents = false
+        numberOfDaysBeforeQualifyingAsOldEvent = -14
+        
         appUserIdentifier = "~"
     }
-
+    
 }
 
 // MARK: public instance methods and properties
@@ -115,6 +124,7 @@ extension AnalyticsService {
         }
     }
     
+    /// appleIdentifierForVendor
     public var appleIdentifierForVendor:String {
         get {
             return localDeviceInfo.appleIdentifierForVendor

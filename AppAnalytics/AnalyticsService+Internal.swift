@@ -98,11 +98,16 @@ extension AnalyticsService {
             // MAS TODO check for network connection first
             AnalyticsService.shared().flushLocalEventsToServer()
         } else {
-            //print( "skip the flush we dont have enough tokens")
-            
-            // Lets use this oppertunity to clean up old events
-            // MAS TODO: deleteLocalEventsOlderThan9Days This needs to be verified
-            // AnalyticsService.shared().deleteLocalEventsOlderThan9Days()
+            print( "skip the flush we have zero tokens")
+            if enableDeletionOfOldEvents {
+                // Lets use this oppertunity to clean up old events, this is to prevent the local storage from getting too big
+                print("delete events that are too old \(numberOfDaysBeforeQualifyingAsOldEvent)(days) to send to the server")
+                let now = Date()
+                var dateComponent = DateComponents()
+                dateComponent.day = numberOfDaysBeforeQualifyingAsOldEvent
+                guard let dateInThePast = Calendar.current.date(byAdding: dateComponent, to: now) else { return }
+                AnalyticsService.shared().deleteLocalEventsOderThan( someDateInThePast: dateInThePast)
+            }
         }
     }
 }

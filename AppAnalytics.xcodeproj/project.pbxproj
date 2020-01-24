@@ -295,14 +295,9 @@
 		76A1144523AA6DAC0055E660 /* ServerViews */ = {
 			isa = PBXGroup;
 			children = (
+				76CBF84C23D8B5C000347A0B /* Views */,
 				76A1144E23AA87650055E660 /* Observables */,
 				76A1144723AA71DA0055E660 /* ViewModels */,
-				7600D62523A82179001E5455 /* ServerAppsView.swift */,
-				76A1142623A912E10055E660 /* ServerAppDetailView.swift */,
-				76A1142A23A917B00055E660 /* ServerDevicesView.swift */,
-				76A1142823A912EC0055E660 /* ServerDeviceDetailView.swift */,
-				76A1144323AA66790055E660 /* ServerCrashDetailView.swift */,
-				76A1143023A953500055E660 /* ServerEventDetailView.swift */,
 			);
 			path = ServerViews;
 			sourceTree = "<group>";
@@ -346,6 +341,19 @@
 				76A4F97E23AD21FF00F6A8AB /* Thread+Current.swift */,
 			);
 			path = UtilityInternal;
+			sourceTree = "<group>";
+		};
+		76CBF84C23D8B5C000347A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7600D62523A82179001E5455 /* ServerAppsView.swift */,
+				76A1142623A912E10055E660 /* ServerAppDetailView.swift */,
+				76A1142A23A917B00055E660 /* ServerDevicesView.swift */,
+				76A1142823A912EC0055E660 /* ServerDeviceDetailView.swift */,
+				76A1144323AA66790055E660 /* ServerCrashDetailView.swift */,
+				76A1143023A953500055E660 /* ServerEventDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		76E1565923A05F5300AD2201 /* LocalModels */ = {

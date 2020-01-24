@@ -12,62 +12,40 @@ import CoreData
 extension AnalyticsService {
     
     /**
-     deleteLocalEventsOlderThan9Days
-     */
-    internal func deleteLocalEventsOlderThan9Days() {
-        let daysToAdd = -9
-        let now = Date()
-        var dateComponent = DateComponents()
-        dateComponent.day = daysToAdd
-        
-        guard let dateInThePast = Calendar.current.date(byAdding: dateComponent, to: now) else { return }
-        
-        deleteOldLocalEventsAfter(dateInThePast)
-        // let twelveHoursInThePast = Date().addingTimeInterval(-43200)
-        // deleteOldLocalEventsAfter(twelveHoursInThePast )
-    }
-    
-    /**
      deleteOldLocalEvents
      delete any events older than x amount of days
      
-     
-     let twelveHoursInThePast = Date().addingTimeInterval(-43200)
-     deleteOldLocalEventsAfter(twelveHoursInThePast )
-     
+     Usage:
+     let now = Date()
+     var dateComponent = DateComponents()
+     dateComponent.day = -9 // 9 days in the past
+     guard let dateInThePast = Calendar.current.date(byAdding: dateComponent, to: now) else { return }
+     deleteLocalEventsOderThan( someDateInThePast: dateInThePast)     
      */
-    internal func deleteOldLocalEventsAfter(_ someDateInThePast: Date ) {
-        
+    internal func deleteLocalEventsOderThan( someDateInThePast: Date ) {
+        // print("deleteLocalEventsOderThan \(someDateInThePast)")
         DispatchQueue.global(qos: .userInitiated).async {
-            
             // Thread.printCurrent("deleteOldLocalEvents")
             
-            // background request
             let context = CoreDataManager.shared.backgroundContext
-            let fetchRequest = NSFetchRequest<CoreDataLocalEvent>(entityName: "CoreDataLocalEvent")
-            //            let sort = NSSortDescriptor(key: "dispatchTime", ascending: true)
-            //            fetchRequest.sortDescriptors = [sort]
+            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "CoreDataLocalEvent")
             let nsDate = someDateInThePast as NSDate
-            let predicate = NSPredicate(format: "(dispatchTime > %@)", nsDate);
+            let predicate = NSPredicate(format: "(dispatchTime < %@)", nsDate);
             fetchRequest.predicate = predicate
             
-            // dispatchTime
+            //build a delete request to support batch delete
+            let batchDeleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
             
-            let localEvents:[CoreDataLocalEvent]
-            do{
-                let models = try context.fetch(fetchRequest)
-                localEvents = models
-            }catch let fetchErr {
-                print("❌ Failed to fetch Person:",fetchErr)
-                localEvents = []
-            }
+            // Configure Batch Update Request
+            batchDeleteRequest.resultType = .resultTypeCount
             
-            print( "localEvents \(localEvents.count)")
-            
-            for (_,event) in localEvents.enumerated() {
-                
-                print( "event \(event.name ?? "~")")
-                // _ = CoreDataManager.shared.deleteEvent(localEvent)
+            do {
+                // Execute Batch Request
+                let batchDeleteResult = try context.execute(batchDeleteRequest) as! NSBatchDeleteResult
+                print("The batch delete request has deleted \(batchDeleteResult.result!) records")
+            } catch {
+                let updateError = error as NSError
+                print("batchDeleteRequest error: \(updateError), \(updateError.userInfo)")
             }
         }
     }

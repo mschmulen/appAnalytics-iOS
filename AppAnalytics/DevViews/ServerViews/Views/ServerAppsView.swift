@@ -13,6 +13,7 @@ public struct ServerAppsView: View {
     @ObservedObject var appServerData: AppServerData = AppServerData()
     
     public init() {
+        
     }
     
     public var body: some View {

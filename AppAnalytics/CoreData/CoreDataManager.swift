@@ -9,13 +9,13 @@
 import Foundation
 import CoreData
 
-/// CoreDataManager
-/// Usage:
-/// CoreDataManager.shared.createSession()
-///
-///
-/// CoreDataManager.shared.createEvent(name: "viewDidShow", sessionUUID: someUUID, dispatchTime:Date )
-///
+/**
+ CoreDataManager
+ Usage:
+ CoreDataManager.shared.createSession()
+ 
+ CoreDataManager.shared.createEvent(name: "viewDidShow", sessionUUID: someUUID, dispatchTime:Date )
+ */
 public class CoreDataManager {
     
     public static let shared = CoreDataManager()
@@ -169,7 +169,7 @@ extension CoreDataManager {
                 print(" dispatchTime: \( String(describing:model.dispatchTime)) ")
             }
             
-        }catch let fetchErr {
+        } catch let fetchErr {
             print("❌ Failed to fetch Person:",fetchErr)
         }
     }
@@ -192,6 +192,7 @@ extension CoreDataManager {
         }
     }
     
+    /// fetchLocalEvents
     public func fetchLocalEvents() -> [CoreDataLocalEvent] {
         let context = persistentContainer.viewContext
         let fetchRequest = NSFetchRequest<CoreDataLocalEvent>(entityName: "CoreDataLocalEvent")
@@ -204,15 +205,14 @@ extension CoreDataManager {
         }
     }
     
+    /// deleteEvent
     internal func deleteEvent(_ localEvent:CoreDataLocalEvent) -> Bool {
         persistentContainer.viewContext.delete(localEvent)
         do {
             try persistentContainer.viewContext.save()
-            // print("✅ save context")
         } catch let error {
             print("❌ Failed save context \(error)")
         }
-
         return true
     }
 

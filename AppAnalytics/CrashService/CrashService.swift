@@ -50,7 +50,6 @@ class CrashService {
         //            for e in exception {
         //                exceptions = exceptions + e + "\n"
         //            }
-        //            print( "!!! MAS TODO Send it to the server")
         //
         //            // remove it
         //            UserDefaults.standard.removeObject(forKey: "ExceptionHandler")
